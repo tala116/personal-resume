@@ -1,0 +1,84 @@
+body {
+    background-color: #ffeef7;
+    color: #880e4f;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #d81b60;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffccd5;
+    color: #880e4f;
+}
+
+.section {
+    padding: 40px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #ff80ab;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(136, 14, 79, 0.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-size: 50%;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff80ab;
+}
+
+.contact-link {
+    color: #880e4f;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #ff4081;
+    border-color: #ff4081;
+}
+
+.btn-primary:hover {
+    background-color: #f50057;
+    border-color: #f50057;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff80ab;
+    color: white;
+}
